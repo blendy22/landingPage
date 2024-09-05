@@ -2,5 +2,5 @@
 
 ## TODO
 
-[] Deal with overused br tags
-[] Add content to the site
+- [] Deal with overused br tags
+- [] Add content to the site
