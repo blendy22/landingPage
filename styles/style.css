@@ -46,11 +46,16 @@ a {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 800;
+  margin-bottom: 0;
+  max-width: 332px;
 }
 
 .top p {
   font-size: 18px;
   color: #e5e7eb;
+  max-width: 600px;
+  margin-top: 0;
+  max-width: 447px;
 }
 
 .top button {
@@ -90,6 +95,7 @@ a {
   width: 100px;
   border: 3px solid #3882f6;
   border-radius: 8px;
+  margin: auto;
 }
 
 .mid .text {
@@ -100,6 +106,8 @@ a {
   text-align: center;
   color: #4a5562;
   margin-bottom: 3rem;
+  max-width: 115px;
+  margin-top: 5px;
 }
 
 .quote {
@@ -109,22 +117,22 @@ a {
 
 .quote p {
   padding-top: 2em;
-  text-align: center;
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
   color: #1f2937;
+  max-width: 782px;
+  margin: auto;
 }
 
 .quote p:nth-child(2) {
   display: flex;
-  justify-content: center;
-  margin-left: 28em;
+  justify-content: end;
   font-size: 20px;
   font-style: normal;
   color: #1e2837;
   font-weight: 800;
-  padding: inherit;
+  padding: 0;
 }
 
 .bottom {
@@ -132,25 +140,36 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .bottom .box {
   display: flex;
   justify-content: space-around;
   background-color: #3882f6;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  padding: 2em;
+  padding: 2.5em;
   border-radius: 8px;
 }
 
 .bottom .box-right {
   color: #f9faf8;
+  margin-left: 10em;
+  margin-right: 5em;
+}
+
+.bottom .box-right h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.bottom .box-right p {
+  margin: 0;
 }
 
 .bottom .box-left {
-  margin-top: 2rem;
-  border-radius: 8px;
+  margin-top: 0.5rem;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .bottom .box-left button {
