@@ -3,4 +3,4 @@
 ## TODO
 
 - [x] Deal with overused br tags
-- [] Add content to the site
+- [x] Add content to the site
